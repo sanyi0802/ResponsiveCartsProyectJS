@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page title</title>
+    <link rel="stylesheet" href="./sass/cards.min.css" />
+    <script type="module" src="./js/index.js"></script>
+</head>
+
+<body>
+    <section class="movies">
+        <ul id="movie-container"></ul>
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-overview"></p>
+            <button id="add-to-watched">Add to Watched</button>
+            <button id="add-to-queue">Add to Queue</button>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="./js/footer.js"></script>
+    <script src="./js/cards.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+
+</html>
